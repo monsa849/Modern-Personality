@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+html {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 30px;
+	background-image: url("happy-place.jpg");
+	background-position: center;
+	object-fit: all;
+}
+
+nav {
+font-family: 'Alfa Slab One', cursive; 
+list-style-type: none;
+margin: auto;
+padding: 10px;
+width: 500px;
+opacity: 0.75;
+color: #165929;
+background-color: pink;
+display: block;
+padding: 10px;
+border-bottom: none;
+text-align: center;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #ED70D3;
+  color: white;
+}
+
+nav ul {
+Margin: 0;
+Padding: 0;
+List-style-type: none;
+}
+
+nav li {
+Display: block; 
+}

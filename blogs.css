@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html {
+	font-family: 'Raleway';
+	font-size: 25px;
+	background-color: purple;
+}
+
+nav {
+font-family: 'Alfa Slab One', cursive; 
+list-style-type: none;
+margin: auto;
+padding: 10px;
+width: 500px;
+opacity: 0.75;
+color: #165929;
+background-color: pink;
+display: block;
+padding: 10px;
+border-bottom: none;
+text-align: center;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #ED70D3;
+  color: white;
+}
+
+nav ul {
+Margin: 0;
+Padding: 0;
+List-style-type: none;
+}
+
+nav li {
+Display: block; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Raleway;
+  padding: 20px;
+  background: white;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 100%;
+  padding-left: 100px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: skyblue;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
